@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
 public class HW1 {
-    public static void ivan(String... args){
+    public static void main(String... args){
 
         Scanner height = new Scanner(System.in);
-        System.out.print("Введіть перше значення: ");
+        System.out.println("Введіть перше значення: ");
         int one = height.nextInt();
         Scanner count = new Scanner(System.in);
         System.out.print("Введіть друге значення: ");
